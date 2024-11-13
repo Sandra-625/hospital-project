@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    background-color: black;
+    padding: 20px;
+    margin: 0 0 0 0 auto;
+}
+nav ul li{
+    margin-right: 60px;
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+/*.hero section*/
+.hero-image{
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/18/12/23/building-2654823_960_720.jpg");
+    background-size: cover;
+    background-position: center;
+    height:400px ;
+    position: relative;
+
+}
+.hero-text{
+    position: absolute;
+    bottom: 40px;
+    left: 100px;
+}
+
+.hero-image h1{
+    font-size: 40px;
+    margin: 0;
+}
+.hero-text p{
+    font-size: 22px;
+}
+#cta\ button{
+    background-color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
